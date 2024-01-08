@@ -14,4 +14,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 sed -i 's/plugins=(git)/plugins=(git zsh-syntax-highlighting zsh-autosuggestions)/g' ~/.zshrc
 echo -e "PROMPT='😒%F{blue}%n@%m  %F{yellow}%~ %f'" >> ~/.zshrc
 
+zsh
 source ~/.zshrc
