@@ -5,6 +5,7 @@ which zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" <<END
 Y
 END
+zsh
 sudo apt-get install git -y
 
 
