@@ -68,6 +68,8 @@ echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.
 
 sudo chmod 644 /etc/apt/sources.list.d/kubernetes.list
 
+sudo apt update
+
 sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
 
